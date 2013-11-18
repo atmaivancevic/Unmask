@@ -23,7 +23,7 @@ func unmaskChr(genomeName, prefix, extension, value string) {
 		unmask(inputFileName, outputFileName)
 		fmt.Println("Processed: " + genomeName + "/" + prefix + value)
 	} else {
-		fmt.Println("File " + outputFileName + " already exists; skipping.")
+		fmt.Println(prefix + value + " already unmasked; skipping.")
 	}
 
 }
