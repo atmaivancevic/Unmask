@@ -1,5 +1,10 @@
 package main
 
+import (
+	"os"
+)
+
 func main() {
-	unmask("~/../../scratch/atmaGenomes/Marmoset/chr1.fa", "~/../../scratch/atmaGenomes/Marmoset/chr1_unmasked.fa")
+	os.Chdir("/scratch/atmaGenomes/Marmoset")
+	unmask("test.fa", "test_unmasked.fa")
 }
