@@ -19,7 +19,7 @@ func main() {
 		inputFileName = "chr" + strconv.Itoa(i) + ".fa"
 		outputFileName = "chr" + strconv.Itoa(i) + "_unmasked.fa"
 		unmask(inputFileName, outputFileName)
-		fmt.Println("Processed: " genomeName + "/" + inputFileName)
+		fmt.Println("Processed: " + genomeName + "/" + inputFileName)
 	}
 
 	// go to the Mouse directory
@@ -31,22 +31,22 @@ func main() {
 		inputFileName = "chr" + strconv.Itoa(i) + ".fa"
 		outputFileName = "chr" + strconv.Itoa(i) + "_unmasked.fa"
 		unmask(inputFileName, outputFileName)
-		fmt.Println("Processed: " genomeName + "/" + inputFileName)
+		fmt.Println("Processed: " + genomeName + "/" + inputFileName)
 	}
-	
+
 	inputFileName = "chrX.fa"
 	outputFileName = "chrX_unmasked.fa"
 	unmask(inputFileName, outputFileName)
-	fmt.Println("Processed: " genomeName + "/" + inputFileName)
+	fmt.Println("Processed: " + genomeName + "/" + inputFileName)
 
 	inputFileName = "chrY.fa"
 	outputFileName = "chrY_unmasked.fa"
 	unmask(inputFileName, outputFileName)
-	fmt.Println("Processed: " genomeName + "/" + inputFileName)
+	fmt.Println("Processed: " + genomeName + "/" + inputFileName)
 
 	inputFileName = "chrUn.fa"
 	outputFileName = "chrUn_unmasked.fa"
 	unmask(inputFileName, outputFileName)
-	fmt.Println("Processed: " genomeName + "/" + inputFileName)
+	fmt.Println("Processed: " + genomeName + "/" + inputFileName)
 
 }
