@@ -46,6 +46,17 @@ func unmaskChrRange(genomeName, prefix, extension string, startIdentifier, endId
 func main() {
 
 	for _, gen := range []struct {
+		genomeName      string
+		prefix          string
+		startIdentifier int
+		endIdentifier   int
+	}{
+		{"A_mellifera", "Group", 1, 16},
+	} {
+		unmaskChrRange(gen.genomeName, gen.prefix, "fa", gen.startIdentifier, gen.endIdentifier)
+	}
+
+	for _, gen := range []struct {
 		genomeName  string
 		prefix      string
 		identifiers []string
@@ -57,58 +68,58 @@ func main() {
 		}
 	}
 
-	// for _, gen := range []struct {
-	// 	genomeName string
-	// 	identifier string
-	// }{
-	// 	{"Alpaca", "vicPac2"},
-	// 	{"AmericanAlligator", "allMis1"},
-	// 	{"Armadillo", "dasNov3"},
-	// 	{"AtlanticCod", "gadMor1"},
-	// 	{"Budgerigar", "melUnd1"},
-	// 	{"Bushbaby", "otoGar3"},
-	// 	{"Coelacanth", "latCha1"},
-	// 	{"D_ananassae", "droAna3"},
-	// 	{"D_erecta", "droEre2"},
-	// 	{"D_grimshawi", "droGri2"},
-	// 	{"D_mojavensis", "droMoj3"},
-	// 	{"Dolphin", "turTru2"},
-	// 	{"D_persimilis", "droPer1"},
-	// 	{"D_pseudoobscura", "dp4"},
-	// 	{"D_sechellia", "droSec1"},
-	// 	{"D_virilis", "droVir3"},
-	// 	{"Ferret", "musFur1"},
-	// 	{"Frog", "xenTro3"},
-	// 	{"Fugu", "fr3"},
-	// 	{"GuineaPig", "cavPor3"},
-	// 	{"Hedgehog", "eriEur1"},
-	// 	{"KangarooRat", "dipOrd1"},
-	// 	{"Lamprey", "petMar2"},
-	// 	{"Manatee", "triMan1"},
-	// 	{"MediumGroundfinch", "geoFor1"},
-	// 	{"Megabat", "pteVam1"},
-	// 	{"Microbat", "myoLuc2"},
-	// 	{"MouseLemur", "micMur1"},
-	// 	{"NakedMolerat", "hetGla2"},
-	// 	{"PaintedTurtle", "chrPic1"},
-	// 	{"Panda", "ailMel1"},
-	// 	{"Pika", "ochPri2"},
-	// 	{"RockHyrax", "proCap1"},
-	// 	{"SeaHare", "aplCal1"},
-	// 	{"SeaUrchin", "strPur2"},
-	// 	{"Shrew", "sorAra1"},
-	// 	{"Sloth", "choHof1"},
-	// 	{"Squirrel", "speTri2"},
-	// 	{"SquirrelMonkey", "saiBol1"},
-	// 	{"Tarsier", "tarSyr1"},
-	// 	{"Tenrec", "echTel2"},
-	// 	{"TreeShrew", "tupBel1"},
-	// 	{"Turkey", "melGal1"},
-	// 	{"Wallaby", "macEug2"},
-	// 	{"WhiteRhino", "cerSim1"},
-	// } {
-	// 	unmaskChr(gen.genomeName, "", "fa", gen.identifier)
-	// }
+	for _, gen := range []struct {
+		genomeName string
+		identifier string
+	}{
+		{"Alpaca", "vicPac2"},
+		{"AmericanAlligator", "allMis1"},
+		{"Armadillo", "dasNov3"},
+		{"AtlanticCod", "gadMor1"},
+		{"Budgerigar", "melUnd1"},
+		{"Bushbaby", "otoGar3"},
+		{"Coelacanth", "latCha1"},
+		{"D_ananassae", "droAna3"},
+		{"D_erecta", "droEre2"},
+		{"D_grimshawi", "droGri2"},
+		{"D_mojavensis", "droMoj3"},
+		{"Dolphin", "turTru2"},
+		{"D_persimilis", "droPer1"},
+		{"D_pseudoobscura", "dp4"},
+		{"D_sechellia", "droSec1"},
+		{"D_virilis", "droVir3"},
+		{"Ferret", "musFur1"},
+		{"Frog", "xenTro3"},
+		{"Fugu", "fr3"},
+		{"GuineaPig", "cavPor3"},
+		{"Hedgehog", "eriEur1"},
+		{"KangarooRat", "dipOrd1"},
+		{"Lamprey", "petMar2"},
+		{"Manatee", "triMan1"},
+		{"MediumGroundfinch", "geoFor1"},
+		{"Megabat", "pteVam1"},
+		{"Microbat", "myoLuc2"},
+		{"MouseLemur", "micMur1"},
+		{"NakedMolerat", "hetGla2"},
+		{"PaintedTurtle", "chrPic1"},
+		{"Panda", "ailMel1"},
+		{"Pika", "ochPri2"},
+		{"RockHyrax", "proCap1"},
+		{"SeaHare", "aplCal1"},
+		{"SeaUrchin", "strPur2"},
+		{"Shrew", "sorAra1"},
+		{"Sloth", "choHof1"},
+		{"Squirrel", "speTri2"},
+		{"SquirrelMonkey", "saiBol1"},
+		{"Tarsier", "tarSyr1"},
+		{"Tenrec", "echTel2"},
+		{"TreeShrew", "tupBel1"},
+		{"Turkey", "melGal1"},
+		{"Wallaby", "macEug2"},
+		{"WhiteRhino", "cerSim1"},
+	} {
+		unmaskChr(gen.genomeName, "", "fa", gen.identifier)
+	}
 
 	// unmaskChr("A_gambaie", "chr", "fa", "2L")
 	// unmaskChr("A_gambaie", "chr", "fa", "2R")
