@@ -52,7 +52,7 @@ func main() {
 	}{
 		{"A_gambaie", "chr", []string{"2L", "2R", "3L", "3R", "X", "U"}},
 	} {
-		for i := 1; i <= len(gen.identifiers); i++ {
+		for i := 0; i < len(gen.identifiers); i++ {
 			unmaskChr(gen.genomeName, gen.prefix, "fa", gen.identifiers[i])
 		}
 	}
