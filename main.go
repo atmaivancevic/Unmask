@@ -163,7 +163,7 @@ func main() {
 	unmaskChr("NileTilapia", "chrLG", "fa", "16-21")
 	unmaskChrRange("NileTilapia", "chrLG", "fa", 17, 20)
 	unmaskChrRange("NileTilapia", "chrLG", "fa", 22, 23)
-	unmaskChr("NileTilapia", "chrLG", "fa", "Un")
+	unmaskChr("NileTilapia", "chr", "fa", "Un")
 
 	unmaskChrRange("Opossum", "chr", "fa", 1, 8)
 	unmaskChr("Opossum", "chr", "fa", "X")
