@@ -54,9 +54,6 @@ func main() {
 		startIdentifier int
 		endIdentifier   int
 	}{
-		{"A_mellifera", "Group", 1, 16},
-		{"Baboon", "chr", 1, 20},
-		{"Btau6", "Chr", 1, 29},
 		{"Cat", "chrA", 1, 3},
 		{"Cat", "chrB", 1, 4},
 		{"Cat", "chrC", 1, 2},
@@ -108,10 +105,6 @@ func main() {
 		prefix      string
 		identifiers []string
 	}{
-		{"A_gambaie", "chr", []string{"2L", "2R", "3L", "3R", "X", "U"}},
-		{"A_mellifera", "Group", []string{"Un"}},
-		{"Baboon", "chr", []string{"X", "Un"}},
-		{"Btau6", "Chr", []string{"X", "U"}},
 		{"Cat", "chr", []string{"X", "Un"}},
 		{"Chicken", "chr", []string{"32", "W", "Z", "Un"}},
 		{"Chimp", "chr", []string{"1", "2A", "2B", "X", "Y", "Un"}},
@@ -157,9 +150,11 @@ func main() {
 		{"AmericanAlligator", "allMis1"},
 		{"Armadillo", "dasNov3"},
 		{"AtlanticCod", "gadMor1"},
+		{"Baboon", "papAnu2"},
 		{"Budgerigar", "melUnd1"},
 		{"Bushbaby", "otoGar3"},
 		{"Coelacanth", "latCha1"},
+		{"Cow", "bosTau6"},
 		{"D_ananassae", "droAna3"},
 		{"D_erecta", "droEre2"},
 		{"D_grimshawi", "droGri2"},
