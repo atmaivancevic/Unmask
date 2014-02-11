@@ -92,7 +92,7 @@ func main() {
 		// {"Rabbit", "oryCun2"},
 		// {"Rat", "rn5"},
 		// {"Rhesus", "rheMac3"},
-		// {"RockHyrax", "proCap1"},
+		{"RockHyrax", "proCap1"},
 		// {"SeaHare", "aplCal1"},
 		// {"SeaUrchin", "strPur2"},
 		// {"Sheep", "oviAri3"},
