@@ -42,7 +42,7 @@ func main() {
 		genomeName string
 		identifier string
 	}{
-		// {"Alpaca", "vicPac2"},
+		{"Alpaca", "vicPac2"},
 		// {"AmericanAlligator", "allMis1"},
 		// {"Armadillo", "dasNov3"},
 		// {"AtlanticCod", "gadMor1"},
@@ -75,7 +75,7 @@ func main() {
 		// {"KangarooRat", "dipOrd1"},
 		// {"Lamprey", "petMar2"},
 		// {"Lizard", "anoCar2"},
-		// {"Manatee", "triMan1"},
+		{"Manatee", "triMan1"},
 		// {"Marmoset", "calJac3"},
 		// {"Medaka", "oryLat2"},
 		// {"MediumGroundfinch", "geoFor1"},
@@ -107,7 +107,7 @@ func main() {
 		// {"TreeShrew", "tupBel1"},
 		// {"Turkey", "melGal1"},
 		// {"Wallaby", "macEug2"},
-		// {"WhiteRhino", "cerSim1"},
+		{"WhiteRhino", "cerSim1"},
 		// {"ZebraFinch", "taeGut1"},
 		// {"Zebrafish", "danRer7"},
 		// {"CapeElephantShrew", "EleEdw1.0"},
@@ -286,11 +286,11 @@ func main() {
 		// {"FreshwaterSnail", "ASM45736v1"},
 		// {"FreshwaterPolyp", "Hydra_RP_1.0"},
 		// {"WartyCombJelly", "MneLei_Aug2011"},
-		{"SeaSponge", "v1.0"},
-		{"C_semi", "Cse_v1.0"},
-		{"AmazonMolly", "Poecilia_formosa_5.1.2"},
-		{"FlagRockfish", "SRub1.0"},
-		{"TigerRockfish", "Snig1.0"},
+		// {"SeaSponge", "v1.0"},
+		// {"C_semi", "Cse_v1.0"},
+		// {"AmazonMolly", "Poecilia_formosa_5.1.2"},
+		// {"FlagRockfish", "SRub1.0"},
+		// {"TigerRockfish", "Snig1.0"},
 	} {
 		unmaskChr(gen.genomeName, "", "fa", gen.identifier)
 	}
