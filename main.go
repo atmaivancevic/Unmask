@@ -43,6 +43,7 @@ func main() {
 		identifier string
 	}{
 		// {"Alpaca", "vicPac2"},
+<<<<<<< HEAD
 		// {"AmericanAlligator", "allMis1"},
 		// {"Armadillo", "dasNov3"},
 		// {"AtlanticCod", "gadMor1"},
@@ -53,6 +54,18 @@ func main() {
 		// {"Chicken", "galGal4"},
 		{"Chimp", "panTro4"},
 		// {"Coelacanth", "latCha1"},
+=======
+		{"AmericanAlligator", "allMis1"},
+		{"Armadillo", "dasNov3"},
+		{"AtlanticCod", "gadMor1"},
+		// {"Baboon", "papAnu2"},
+		{"Budgerigar", "melUnd1"},
+		{"Bushbaby", "otoGar3"},
+		{"Cat", "felCat5"},
+		{"Chicken", "galGal4"},
+		{"Chimp", "panTro4"},
+		{"Coelacanth", "latCha1"},
+>>>>>>> e8257e7dd57ffb37a80f58a100db1f76f3d49479
 		// {"Cow", "bosTau6"},
 		// {"D_ananassae", "droAna3"},
 		// {"D_erecta", "droEre2"},
@@ -65,19 +78,27 @@ func main() {
 		// {"D_sechellia", "droSec1"},
 		// {"D_virilis", "droVir3"},
 		// {"Elephant", "loxAfr3"},
-		// {"Ferret", "musFur1"},
+		{"Ferret", "musFur1"},
 		// {"Frog", "xenTro3"},
+<<<<<<< HEAD
 		// {"Fugu", "fr3"},
 		// {"Gibbon", "nomLeu3"},
 		{"Gorilla", "gorGor3"},
 		// {"GuineaPig", "cavPor3"},
+=======
+		{"Fugu", "fr3"},
+		{"Gibbon", "nomLeu3"},
+		{"Gorilla", "gorGor3"},
+		{"GuineaPig", "cavPor3"},
+>>>>>>> e8257e7dd57ffb37a80f58a100db1f76f3d49479
 		// {"Hedgehog", "eriEur1"},
-		// {"KangarooRat", "dipOrd1"},
-		// {"Lamprey", "petMar2"},
+		{"KangarooRat", "dipOrd1"},
+		{"Lamprey", "petMar2"},
 		// {"Lizard", "anoCar2"},
 		// {"Manatee", "triMan1"},
 		{"Marmoset", "calJac3"},
 		// {"Medaka", "oryLat2"},
+<<<<<<< HEAD
 		// {"MediumGroundfinch", "geoFor1"},
 		// {"Megabat", "pteVam1"},
 		// {"Microbat", "myoLuc2"},
@@ -92,23 +113,39 @@ func main() {
 		// {"Rabbit", "oryCun2"},
 		{"Rat", "rn5"},
 		// {"Rhesus", "rheMac3"},
+=======
+		{"MediumGroundfinch", "geoFor1"},
+		{"Megabat", "pteVam1"},
+		{"Microbat", "myoLuc2"},
+		{"MouseLemur", "micMur1"},
+		{"NakedMolerat", "hetGla2"},
+		{"NileTilapia", "oreNil2"},
+		{"PaintedTurtle", "chrPic1"},
+		{"Panda", "ailMel1"},
+		{"Pig", "susScr3"},
+		// {"Pika", "ochPri2"},
+		// {"Platypus", "ornAna1"},
+		{"Rabbit", "oryCun2"},
+		// {"Rat", "rn5"},
+		{"Rhesus", "rheMac3"},
+>>>>>>> e8257e7dd57ffb37a80f58a100db1f76f3d49479
 		// {"RockHyrax", "proCap1"},
 		// {"SeaHare", "aplCal1"},
 		// {"SeaUrchin", "strPur2"},
 		// {"Sheep", "oviAri3"},
 		// {"Shrew", "sorAra1"},
 		// {"Sloth", "choHof1"},
-		// {"Squirrel", "speTri2"},
-		// {"SquirrelMonkey", "saiBol1"},
-		// {"Stickleback", "gasAcu1"},
+		{"Squirrel", "speTri2"},
+		{"SquirrelMonkey", "saiBol1"},
+		{"Stickleback", "gasAcu1"},
 		// {"Tarsier", "tarSyr1"},
-		// {"TasDevil", "sarHar1"},
+		{"TasDevil", "sarHar1"},
 		// {"Tenrec", "echTel2"},
-		// {"TreeShrew", "tupBel1"},
-		// {"Turkey", "melGal1"},
+		{"TreeShrew", "tupBel1"},
+		{"Turkey", "melGal1"},
 		// {"Wallaby", "macEug2"},
 		// {"WhiteRhino", "cerSim1"},
-		// {"ZebraFinch", "taeGut1"},
+		{"ZebraFinch", "taeGut1"},
 		// {"Zebrafish", "danRer7"},
 		// {"CapeElephantShrew", "EleEdw1.0"},
 		// {"Aardvark", "OryAfe1.0"},
@@ -244,7 +281,11 @@ func main() {
 		// {"RedSpiderMite", "ASM23943v1"},
 		// {"MonarchButterfly", "DanPle_1.0"},
 		// {"CommonEasternBumbleBee", "BIMP_2.0"},
+<<<<<<< HEAD
 		{"BufftailedBumbleBee", "Bter_1.0"},
+=======
+		// {"BufftailedBumbleBee", "Bter_1.0"},
+>>>>>>> e8257e7dd57ffb37a80f58a100db1f76f3d49479
 		// {"ArgentineAnt", "Lhum_UMD_V04"},
 		// {"PanamanianLeafcutterAnt", "Aech_3.9"},
 		// {"PeaAphid", "Acyr_2.0"},
@@ -287,6 +328,13 @@ func main() {
 		// {"FreshwaterPolyp", "Hydra_RP_1.0"},
 		// {"WartyCombJelly", "MneLei_Aug2011"},
 		// {"SeaSponge", "v1.0"},
+<<<<<<< HEAD
+=======
+		// {"C_semi", "Cse_v1.0"},
+		// {"AmazonMolly", "Poecilia_formosa_5.1.2"},
+		// {"FlagRockfish", "SRub1.0"},
+		// {"TigerRockfish", "Snig1.0"},
+>>>>>>> e8257e7dd57ffb37a80f58a100db1f76f3d49479
 	} {
 		unmaskChr(gen.genomeName, "", "fa", gen.identifier)
 	}
