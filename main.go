@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "/data01/Genomes/Vertebrates/"
+const genomeDir = "/data01/Genomes/Other/"
 
 // this runs unmask on the file [prefix][identifier].[extension] within the specific genome directory [genomeDir]/[genomeName]
 
@@ -69,7 +69,7 @@ func main() {
 		// {"CapeGoldenMole", "ChrAsi1.0"},
 		// {"Cat", "felCat5"},
 		// {"Chicken", "galGal4"},
-		{"Chimp", "panTro4"},
+		// {"Chimp", "panTro4"},
 		// {"Chinchilla", "ChiLan1.0"},
 		// {"ChineseAlligator", "ASM45574v1"},
 		// {"ChineseHamster", "CriGri_1.0"},
@@ -493,6 +493,7 @@ func main() {
 		// {"MiniPig", "SscrofaMinipig"},
 		// {"hg19", "hg19"},
 		// {"Shark", "shark_ass_20150106_scafSeq"},
+		{"PogonaVitticeps", "Pogona_vitticeps.male"},
 	} {
 		unmaskChr(gen.genomeName, "", "fa", gen.identifier)
 	}
