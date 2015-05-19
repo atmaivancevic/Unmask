@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "/data01/Genomes/Other/"
+const genomeDir = "/data01/Genomes/Vertebrates/"
 
 // this runs unmask on the file [prefix][identifier].[extension] within the specific genome directory [genomeDir]/[genomeName]
 
