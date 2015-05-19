@@ -492,8 +492,8 @@ func main() {
 		// {"WildSheep", "Oori1"},
 		// {"MiniPig", "SscrofaMinipig"},
 		// {"hg19", "hg19"},
-		// {"Shark", "shark_ass_20150106_scafSeq"},
-		{"PogonaVitticeps", "Pogona_vitticeps.male"},
+		{"Shark", "shark_ass_20150106_scafSeq"},
+		// {"PogonaVitticeps", "Pogona_vitticeps.male"},
 	} {
 		unmaskChr(gen.genomeName, "", "fa", gen.identifier)
 	}
