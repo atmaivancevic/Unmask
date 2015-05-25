@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "/data01/Genomes/Vertebrates/"
+const genomeDir = "/data01/Genomes/Other/"
 
 // this runs unmask on the file [prefix][identifier].[extension] within the specific genome directory [genomeDir]/[genomeName]
 
@@ -69,7 +69,7 @@ func main() {
 		// {"CapeGoldenMole", "ChrAsi1.0"},
 		// {"Cat", "felCat5"},
 		// {"Chicken", "galGal4"},
-		{"Chimp", "panTro4"},
+		// {"Chimp", "panTro4"},
 		// {"Chinchilla", "ChiLan1.0"},
 		// {"ChineseAlligator", "ASM45574v1"},
 		// {"ChineseHamster", "CriGri_1.0"},
@@ -469,31 +469,31 @@ func main() {
 		// {"SeaSponge", "v1.0"},
 		// {"SaltwaterCroc", "Cpor_2.0"}, //New
 		// {"GharialCroc", "ggan_v0.2"},
-		// {"Viper", "Vber.be_1.0"},
-		// {"KingCobra", "OphHan1.0"},
-		// {"PitViper", "CrotMitch1.0"},
-		// {"EuropeanEel", "Anguilla_anguilla_v1_09_nov_10"},
-		// {"JapaneseEel", "japanese_eel_genome_v1_25_oct_2011_japonica_c401b40"},
-		// {"MormonButterfly", "Ppol_1.0"},
-		// {"SwallowtailButterfly", "Pxut_1.0"},
-		// {"TigerButterfly", "pgl_assembly_v1"},
-		// {"ProboscisMonkey", "Charlie1.0"},
-		// {"PolarBear", "UrsMar_1.0"},
-		// {"FlyingLemur", "G_variegatus_3.0.2"},
-		// {"PrzewalskiHorse", "Burgud"},
-		// {"ChinesePangolin", "M_pentadactyla_1.1.1"},
-		// {"DamaralandMolerat", "DMR_v1.0"},
-		// {"Bison", "Bison_UMD1.0"},
-		// {"Dromedary", "PRJNA234474_Ca_dromedarius_V1.0"},
-		// {"SnubnosedMonkey", "Rrox_v1"},
-		// {"BrazilianGuineaPig", "CavAp1.0"},
-		// {"TibetanPig", "Tibetan_Pig_v1.0"},
-		// {"MongolianHorse", "Ajinai1.0"},
-		// {"WildSheep", "Oori1"},
-		// {"MiniPig", "SscrofaMinipig"},
-		// {"hg19", "hg19"},
-		// {"Shark", "shark_ass_20150106_scafSeq"},
-		// {"PogonaVitticeps", "Pogona_vitticeps.male"},
+		{"Viper", "Vber.be_1.0"},
+		{"KingCobra", "OphHan1.0"},
+		{"PitViper", "CrotMitch1.0"},
+		{"EuropeanEel", "Anguilla_anguilla_v1_09_nov_10"},
+		{"JapaneseEel", "japanese_eel_genome_v1_25_oct_2011_japonica_c401b40"},
+		{"MormonButterfly", "Ppol_1.0"},
+		{"SwallowtailButterfly", "Pxut_1.0"},
+		{"TigerButterfly", "pgl_assembly_v1"},
+		{"ProboscisMonkey", "Charlie1.0"},
+		{"PolarBear", "UrsMar_1.0"},
+		{"FlyingLemur", "G_variegatus_3.0.2"},
+		{"PrzewalskiHorse", "Burgud"},
+		{"ChinesePangolin", "M_pentadactyla_1.1.1"},
+		{"DamaralandMolerat", "DMR_v1.0"},
+		{"Bison", "Bison_UMD1.0"},
+		{"Dromedary", "PRJNA234474_Ca_dromedarius_V1.0"},
+		{"SnubnosedMonkey", "Rrox_v1"},
+		{"BrazilianGuineaPig", "CavAp1.0"},
+		{"TibetanPig", "Tibetan_Pig_v1.0"},
+		{"MongolianHorse", "Ajinai1.0"},
+		{"WildSheep", "Oori1"},
+		{"MiniPig", "SscrofaMinipig"},
+		{"hg19", "hg19"},
+		{"Shark", "shark_ass_20150106_scafSeq"},
+		{"PogonaVitticeps", "Pogona_vitticeps.male"},
 	} {
 		unmaskChr(gen.genomeName, "", "fa", gen.identifier)
 	}
