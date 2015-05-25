@@ -69,7 +69,7 @@ func main() {
 		// {"CapeGoldenMole", "ChrAsi1.0"},
 		// {"Cat", "felCat5"},
 		// {"Chicken", "galGal4"},
-		// {"Chimp", "panTro4"},
+		{"Chimp", "panTro4"},
 		// {"Chinchilla", "ChiLan1.0"},
 		// {"ChineseAlligator", "ASM45574v1"},
 		// {"ChineseHamster", "CriGri_1.0"},
@@ -491,7 +491,7 @@ func main() {
 		// {"MongolianHorse", "Ajinai1.0"},
 		// {"WildSheep", "Oori1"},
 		// {"MiniPig", "SscrofaMinipig"},
-		{"hg19", "hg19"},
+		// {"hg19", "hg19"},
 		// {"Shark", "shark_ass_20150106_scafSeq"},
 		// {"PogonaVitticeps", "Pogona_vitticeps.male"},
 	} {
