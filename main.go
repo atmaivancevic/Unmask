@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const genomeDir = "/data01/Genomes/Other/"
+const genomeDir = "/data01/Genomes/Vertebrates/"
 
 // this runs unmask on the file [prefix][identifier].[extension] within the specific genome directory [genomeDir]/[genomeName]
 
@@ -125,6 +125,7 @@ func main() {
 		// {"NakedMolerat", "hetGla2"},
 		// {"NeolamprologusBrichardi", "NeoBri1.0"},
 		// {"NileTilapia", "oreNil2"},
+		{"Opossum", "monDom5"},
 		// {"PaintedTurtle", "Chrysemys_picta_bellii_3.0.3"},
 		// {"Panda", "ailMel1"},
 		// {"ParnellsMustachedBat", "ASM46540v1"},
